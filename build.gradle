@@ -9,6 +9,7 @@ buildscript {
 
 apply plugin: 'spring-boot'
 apply plugin: 'groovy'
+apply plugin: 'war'
 
 repositories {
   mavenCentral()
