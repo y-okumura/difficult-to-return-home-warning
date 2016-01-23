@@ -1,0 +1,19 @@
+buildscript {
+  repositories {
+    mavenCentral()
+  }
+  dependencies {
+    classpath 'org.springframework.boot:spring-boot-gradle-plugin:1.3.2.RELEASE'
+  }
+}
+
+apply plugin: 'spring-boot'
+apply plugin: 'groovy'
+
+repositories {
+  mavenCentral()
+}
+dependencies {
+  compile 'org.codehaus.groovy:groovy-all',
+          'org.springframework.boot:spring-boot-starter-web'
+}
